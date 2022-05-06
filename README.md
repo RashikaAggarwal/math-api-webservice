@@ -7,8 +7,9 @@ This repository is a golang web service that exposes REST HTTP APIs to perform m
 #### Get min number(s) based on the quantifier and the list of numbers
 + **Method**: `POST`
 + **URI**: `/min`
-+  **Content-Type**: `application/json`
++ **Content-Type**: `application/json`
 + **Request Body**:
+
 | Paramter     | Description        |
 | :----------- | :----------------- |
 | `numList`    | Array of numbers   |
@@ -19,6 +20,7 @@ This repository is a golang web service that exposes REST HTTP APIs to perform m
 + **URI**: `/max`
 +  **Content-Type**: `application/json`
 + **Request Body**:
+
 | Paramter     | Description        |
 | :----------- | :----------------- |
 | `numList`    | Array of numbers   |
@@ -29,6 +31,7 @@ This repository is a golang web service that exposes REST HTTP APIs to perform m
 + **URI**: `/avg`
 +  **Content-Type**: `application/json`
 + **Request Body**:
+
 | Paramter     | Description        |
 | :----------- | :----------------- |
 | `numList`    | Array of numbers   |
@@ -38,6 +41,7 @@ This repository is a golang web service that exposes REST HTTP APIs to perform m
 + **URI**: `/median`
 +  **Content-Type**: `application/json`
 + **Request Body**:
+
 | Paramter     | Description        |
 | :----------- | :----------------- |
 | `numList`    | Array of numbers   |
@@ -47,6 +51,7 @@ This repository is a golang web service that exposes REST HTTP APIs to perform m
 + **URI**: `/percentile`
 +  **Content-Type**: `application/json`
 + **Request Body**:
+
 | Paramter     | Description        |
 | :----------- | :----------------- |
 | `numList`    | Array of numbers   |
